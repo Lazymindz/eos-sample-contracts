@@ -37,7 +37,7 @@
  (data (i32.const 160) "none\00")
  (data (i32.const 176) "the game has ended\00")
  (data (i32.const 208) "Not your game\00")
- (data (i32.const 224) "Not your turn. Wait for the other player\00")
+ (data (i32.const 224) "Not your turn. Wait for the other player\'s move\00")
  (data (i32.const 272) "Not a valid movement!\00")
  (data (i32.const 304) "cannot pass end iterator to modify\00")
  (data (i32.const 352) "object passed to modify is not in multi_index\00")

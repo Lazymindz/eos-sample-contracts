@@ -155,7 +155,7 @@ namespace tictactoe{
       eosio_assert(m.by == itr->host || m.by == itr->challenger, "Not your game");
 
       //Check if the turn of the player is correct
-      eosio_assert(m.by == itr->turn, "Not your turn. Wait for the other player");
+      eosio_assert(m.by == itr->turn, "Not your turn. Wait for the other player's move");
 
       //Check if the movement is valid;
       eosio_assert(is_valid_movement(m.mvt, *itr),"Not a valid movement!");
